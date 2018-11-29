@@ -12,7 +12,13 @@ loadEventListeners();
 function loadEventListeners () {
   // Add task event
   form.addEventListener('submit', addTask);
+  form.addEventListener('.clear-tasks', clearTasks)
 }
+// Clear Tasks
+function clearTasks (e) {
+  
+}
+
 
 // Add tasks
 function addTask (e) {
