@@ -12,7 +12,6 @@ loadEventListeners();
 function loadEventListeners () {
   // Add task event
   form.addEventListener('submit', addTask);
-<<<<<<< HEAD
   // Remove task addEventListener
   taskList.addEventListener('click', removeTask);
   clearBtn.addEventListener('click', clearTasks);
@@ -30,15 +29,7 @@ function filterTasks(e){
        task.style.display = 'none';
     }
   });
-=======
-  clearBtn.addEventListener('click', clearTasks)
->>>>>>> 6e91ae78da30a14d16337415f1f70cdd182a715a
 }
-// Clear Tasks
-function clearTasks (e) {
-  
-}
-
 
 // Add tasks
 function addTask (e) {
